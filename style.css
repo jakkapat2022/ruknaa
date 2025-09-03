@@ -44,7 +44,7 @@ main button:hover{
 
 .box {
     position: absolute;
-    width: 300px;
+    width: 400px;
     height: 300px;
     background-color: #ffb6c1;
     align-items: center;
@@ -61,6 +61,10 @@ main button:hover{
 p {
     text-align: center;
     color: #5d4b80;
+}
+
+img {
+    width: 100px;
 }
 
 .heart.active {
