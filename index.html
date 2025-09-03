@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>รักนะอ้วน</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playpen+Sans+Thai:wght@100..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <button id="btn" onclick="toggle()">กดดูสิค้าบอ้วน</button>
+        <div class="box" id="box">
+            <p>เค้ารักอ้วนนะค้าบจุ้บๆๆๆๆๆๆๆๆๆๆ</p>
+        </div>
+        <div class="heart" id="heart"></div>
+    </main>
+
+    <script>
+        const button = document.getElementById('box');
+        const heart = document.getElementById('heart');
+
+        function toggle () {
+            button.setAttribute('class', 'box active');
+            heart.setAttribute('class', 'heart active');
+        }
+    </script>
+</body>
+</html>
